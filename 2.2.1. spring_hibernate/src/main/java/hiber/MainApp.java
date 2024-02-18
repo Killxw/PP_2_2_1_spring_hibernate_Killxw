@@ -6,11 +6,11 @@ import hiber.model.User;
 import hiber.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import java.sql.SQLException;
 import java.util.List;
+import java.util.Optional;
 
 public class MainApp {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(AppConfig.class);
 
@@ -35,7 +35,12 @@ public class MainApp {
             System.out.println("Email = " + user.getEmail());
             System.out.println("Car = " + user.getCar());
         }
-        System.out.println(userService.findUser("BMW", 5).getFirstName());
+        Optional<User> user = userService.findUser("BMW", 5);
+        if (user.isPresent()) {
+            System.out.println("Найден пользователь с именем " + user.get().getFirstName());
+        } else {
+            System.out.println("Пользователь не найден");
+        }
 
         context.close();
     }
