@@ -29,15 +29,18 @@ public class MainApp {
 
         List<User> users = userService.listUsers();
         for (User user : users) {
-            System.out.println("Id = " + user.getId());
-            System.out.println("First Name = " + user.getFirstName());
-            System.out.println("Last Name = " + user.getLastName());
-            System.out.println("Email = " + user.getEmail());
-            System.out.println("Car = " + user.getCar());
+            System.out.println("Id = " + user.getId() +
+                    ", First Name = " + user.getFirstName() +
+                    ", Last Name = " + user.getLastName() +
+                    ", Email = " + user.getEmail() +
+                    ", Car = " + user.getCar());
         }
         Optional<User> user = userService.findUser("BMW", 5);
         if (user.isPresent()) {
-            System.out.println("Найден пользователь с именем " + user.get().getFirstName());
+            System.out.println("Найден пользователь: " + "Id = " + user.get().getId() +
+                    ", First Name = " + user.get().getFirstName() +
+                    ", Last Name = " + user.get().getLastName() +
+                    ", Email = " + user.get().getEmail());
         } else {
             System.out.println("Пользователь не найден");
         }

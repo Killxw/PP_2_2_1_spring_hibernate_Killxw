@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f76677ab-6e81-4721-b292-041f451be88d" name="Changes" comment="2.2.1" />
+    <list default="true" id="f76677ab-6e81-4721-b292-041f451be88d" name="Changes" comment="2.2.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/dao/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/dao/UserDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/service/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/service/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/dao/UserDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/dao/UserDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/service/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/target/classes/hiber/service/UserServiceImp.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/tehni/IdeaProjects/PP_2_2_2_spring-mvc",
+    "last_opened_file_path": "C:/Users/tehni/IdeaProjects/IgorPril",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +101,10 @@
       <workItem from="1707907123989" duration="21000" />
       <workItem from="1707924550067" duration="1634000" />
       <workItem from="1708253147499" duration="3921000" />
+      <workItem from="1708354785134" duration="195000" />
+      <workItem from="1708539122344" duration="982000" />
+      <workItem from="1708540394595" duration="978000" />
+      <workItem from="1708562924313" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="2.2.1">
       <option name="closed" value="true" />
@@ -124,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708256296861</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2.2.1">
+      <option name="closed" value="true" />
+      <created>1708354943798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708354943798</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,16 +166,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.2.1" />
     <option name="LAST_COMMIT_MESSAGE" value="2.2.1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2.2.1. spring_hibernate/src/main/java/hiber/dao/UserDaoImp.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
